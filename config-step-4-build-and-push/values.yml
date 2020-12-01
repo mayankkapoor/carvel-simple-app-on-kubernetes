@@ -2,6 +2,7 @@
 ---
 svc_port: 80
 app_port: 80
-hello_msg: stranger
+replicas: 2
+hello_msg: deployer
 push_images: true
-push_images_repo: "" #! e.g. "docker.io/dkalinin/k8s-simple-app"
+push_images_repo: "docker.io/mayankkapoor/k8s-simple-app" #! e.g. "docker.io/dkalinin/k8s-simple-app"

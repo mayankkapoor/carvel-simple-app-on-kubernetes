@@ -24,6 +24,7 @@ metadata:
 spec:
   selector:
     matchLabels: #@ labels()
+  replicas: #@ data.values.replicas
   template:
     metadata:
       labels: #@ labels()
